@@ -14,5 +14,5 @@ $msg=$_REQUEST['message'];
 $query=mysqli_query($db_connect,"INSERT INTO user (name,city,email,message) VALUES ('$name','$city','$email','$msg')") or die(mysqli_error($db_connect));
 echo "<h1>Connected! to database_user_process</h1>";
 mysqli_close($db_connect);
-//header("location:index.php");
+header("location:index.php");
 ?>
