@@ -12,4 +12,4 @@ it contains four files
 
 3. user_process.php => it contains the code which takes values of contact us form using request method then submit data using mysqli_query() to database.
 
-4.css => it contains css code which helps  index.php to looks more nicer.
+ 4.css => it contains css code which helps  index.php to looks more nicer.
